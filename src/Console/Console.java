@@ -66,8 +66,8 @@ public class Console {
     	int position;
     	
         if (board.getTurn() == ID.X) {
-        	// position=getHumanMove();
-        	position = MinMaxAgent.play(board, ID.X, this.depth);
+        	position=getHumanMove();
+        	//position = MinMaxAgent.play(board, ID.X, this.depth);
         	board.move(position);
  
         } else {
@@ -118,26 +118,17 @@ public class Console {
     
 
     public static void main(String[] args){
-        // ID[][] array = {
-        //     {ID.X, ID.Blank, ID.Blank},
-        //     {ID.Blank, ID.Blank, ID.Blank},
-        //     {ID.Blank, ID.Blank, ID.Blank}
-        // };
-        // new Board(3, 3, 3).getAllBoards(array);
-        // System.exit(0);
 
     	final int repetitions=1;
         int x = 4;
     	long times = 0;
     	for(int i=0; i<repetitions; i++) {
-            Console game = new Console(x, x, x, 16);
+            Console game = new Console(x, x, x, 20);
             long startTime = System.currentTimeMillis();
             game.play();   
             long totalTime = System.currentTimeMillis() - startTime;
             times += totalTime;
         }
         System.out.println("Av Time: " + times*1.0f/repetitions+ " milisecs");    
-        // Board a = new Board(4, 4, 0);
-        // System.out.println(a.children());
     }
 }
