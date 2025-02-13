@@ -1,18 +1,15 @@
-## Getting Started
+## TicTacToe-AI
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project let's u play tic-tac-toe against, a machine, yourlself, or a friend (locally).
+The AI agent uses the [MinMax Algorithm] (https://en.wikipedia.org/wiki/Minimax). Also u can check out this video made by, [Sebastian Lague] (https://github.com/SebLague)to understand it https://www.youtube.com/watch?v=l-hh51ncgDI&t
 
-## Folder Structure
+### Play
 
-The workspace contains two folders by default, where:
+To play the game u gotta have java installed, and java must be in your path for the script to work.
+Another note, u can play the game in windows or mac, but u will have to compile and run your way, the script is only for linux.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Now that u have all installed, just run the script ´run_game´ and u can play the game.
+    
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
