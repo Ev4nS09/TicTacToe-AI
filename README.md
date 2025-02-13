@@ -1,7 +1,7 @@
 ## TicTacToe-AI
 
 This project let's u play tic-tac-toe against, a machine, yourlself, or a friend (locally).
-The AI agent uses the [MinMax Algorithm](https://en.wikipedia.org/wiki/Minimax). Also u can check out this video made by, [Sebastian Lague](https://github.com/SebLague)to understand it https://www.youtube.com/watch?v=l-hh51ncgDI&t
+The AI agent uses the [MinMax Algorithm](https://en.wikipedia.org/wiki/Minimax). Also u can check out this video made by, [Sebastian Lague](https://github.com/SebLague) to understand it https://www.youtube.com/watch?v=l-hh51ncgDI&t
 
 ### Play
 
